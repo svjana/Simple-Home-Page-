@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+   
+   <style>
+        body{
+            background-color: #3eb18a;
+            background-image: url("horse.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+
+           
+            
+        }
+        .navbar li{
+            list-style: none;
+            float: left;
+            margin: 15px 20px;
+            font-size: larger;
+    
+             
+        }
+        .navbar li a:hover{
+            color: red;
+
+        }
+        .navbar ul{
+            background-color: #353232;
+            overflow: auto;
+            border-radius: 30px;
+            
+            
+        }
+        .navbar li a{
+            text-decoration: none;
+            padding: 3px 3px;
+            color: aqua;
+        }
+        .search{
+            float: right;
+            color: aliceblue;
+            padding: 12px 75px;
+
+        }
+        .navbar input{
+            border: 2px solid black;
+            padding: 3px 17px;
+            width: 140px;
+            border-radius: 15px;
+        }
+        .navbar{
+            font-family: 'Rubik Vinyl', cursive;
+        }
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search Here">
+            </div>
+            
+        </ul>
+    </div>
+</body>
+</html>
